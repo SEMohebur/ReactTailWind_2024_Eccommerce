@@ -1,0 +1,44 @@
+{
+  "user": [
+    {
+      "id": "sagur",
+      "name": "sagur",
+      "password": "11111111",
+      "email": "sagur@gmail.com",
+      "phone": "1111111111",
+      "country": "india",
+      "address": "s",
+      "gender": "male"
+    },
+    {
+      "id": "maisa",
+      "name": "maisa islam",
+      "password": "88888888",
+      "email": "maisa@gmail.com",
+      "phone": "1111111111",
+      "country": "Pakisthan",
+      "address": "d",
+      "gender": "male"
+    },
+    {
+      "id": "mm",
+      "name": "mhuuhiu",
+      "password": "11111111",
+      "email": "mohebur11@gmail.com",
+      "phone": "5478236978",
+      "country": "Pakisthan",
+      "address": "k",
+      "gender": "male"
+    },
+    {
+      "id": "hridoy67",
+      "name": "fdsdfsdf",
+      "password": "12345",
+      "email": "rdiy@gmail.com",
+      "phone": "0155555555",
+      "country": "india",
+      "address": "fdgdfgfdgdfg",
+      "gender": "male"
+    }
+  ]
+}
