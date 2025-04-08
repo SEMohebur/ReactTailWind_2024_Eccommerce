@@ -18,16 +18,20 @@ const CartDetails = ({ cart, setCart }) => {
 
   /* product decrement method*/
   const decrement = (product) => {
-    const exsit = cart.find((x) => {
-      return x.id === product.id;
-    });
-    setCart(
-      cart.map((item) => {
-        return item.id === product.id
-          ? { ...exsit, quantity: exsit.quantity - 1 }
-          : item;
-      })
-    );
+    if (product.quantity <= 1) {
+      alert("1 Product roming");
+    } else {
+      const exsit = cart.find((x) => {
+        return x.id === product.id;
+      });
+      setCart(
+        cart.map((item) => {
+          return item.id === product.id
+            ? { ...exsit, quantity: exsit.quantity - 1 }
+            : item;
+        })
+      );
+    }
   };
 
   /* remove product method*/

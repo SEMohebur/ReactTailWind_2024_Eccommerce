@@ -39,6 +39,16 @@
       "country": "india",
       "address": "fdgdfgfdgdfg",
       "gender": "male"
+    },
+    {
+      "id": "mohebur",
+      "name": "d",
+      "password": "11111111",
+      "email": "m@gmail.com",
+      "phone": "1111111111",
+      "country": "india",
+      "address": "d",
+      "gender": "male"
     }
   ]
 }
